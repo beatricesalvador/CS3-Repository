@@ -7,3 +7,4 @@ Hello! I am Beatrice D. Salvador from 9-Pinatubo.
 
 ### SG 2: Activity 2 - [Click Here to Read](https://github.com/beatricesalvador/CS3-Repository/blob/main/q1/q1_sg2_a2.md)
 
+### SG 2: Activity 3 - [Click Here to Read](https://github.com/beatricesalvador/CS3-Repository/blob/main/q1/q1_sg2_a3.py)
