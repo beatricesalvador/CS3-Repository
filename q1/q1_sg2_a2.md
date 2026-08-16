@@ -7,7 +7,7 @@
   <td align = "right"><b>Score:</b>________________</td>
 </tr>
 <tr>
-  <td align = "left"><b>C# / Name:</b> (#29) Salvador, Beatrice D.</td>
+  <td align = "left"><b>C# / Name:</b> (#28, #29, #30) Salvador, Beatrice D.</td>
   <td align = "right"><b>Date:</b>_________________</td>
 </tr>
 </table>
@@ -70,6 +70,7 @@ EndAlgorithm
 
 <b>1. Efficiency </b>  \
 Which algorithm is faster when the list of numbers is very large? Why?
+
 Algorithm 1 is faster especially when the list of numbers is very large because its structure does not have a 
 nested loop (unlike Algorithm 2). It also would finish earlier than Algorithm 2 because it does not have to loop
 through every element to find the max. 
@@ -82,13 +83,13 @@ through every element to find the max.
   <td align = "left"><b>PseudoCode 2</b></td>
 </tr>
 <tr>
-  <td align = "left">- [X] Does the algorithm use one loop or two nested loops?</td>
-  <td align = "left">- [X] Does the algorithm use one loop or two nested loops?</td>
+  <td align = "left">- [one] Does the algorithm use one loop or two nested loops?</td>
+  <td align = "left">- [nested] Does the algorithm use one loop or two nested loops?</td>
 </tr>
   
 <tr>
-  <td align = "left">- [ ] Does the algorithm repeat work unnecessarily?</td>
-  <td align = "left">- [X] Does the algorithm repeat work unnecessarily?</td>
+  <td align = "left">- [no] Does the algorithm repeat work unnecessarily?</td>
+  <td align = "left">- [yes] Does the algorithm repeat work unnecessarily?</td>
 </tr>
 
 <tr>
@@ -99,7 +100,9 @@ through every element to find the max.
 
 <b>2. Readability </b>  \
 Which algorithm is easier to understand at first glance? What makes it clearer?
-___________________________________
+
+Algorithm 1 is easier to understand at first glance because it has only one loop (which makes it easier to follow)
+and the variable names are also clear.
 
 
 **Checklist to guide your answer:**
@@ -109,24 +112,25 @@ ___________________________________
     <td align = "left"><b>Pseudocode 2</b></td>
   </tr>
   <tr>
-    <td align = "left">- [ ] Are variable names meaningful (e.g., max vs. bigger?</td>
-    <td align = "left">- [ ] Are variable names meaningful (e.g., max vs. bigger?</td>
+    <td align = "left">- [X] Are variable names meaningful (e.g., max vs. bigger?)</td>
+    <td align = "left">- [X] Are variable names meaningful (e.g., max vs. bigger?)</td>
   </tr>
 
   <tr>
-    <td align = "left">- [ ] Is the logic simple or complicated?</td>
-    <td align = "left">- [ ] Is the logic simple or complicated?</td>
+    <td align = "left">- [simple] Is the logic simple or complicated?</td>
+    <td align = "left">- [complicated] Is the logic simple or complicated?</td>
   </tr>
 
   <tr>
-    <td align = "left">- [ ] Are there fewer lines of code?</td>
-    <td align = "left">- [ ] Are there fewer lines of code?</td>
+    <td align = "left">- [yes] Are there fewer lines of code?</td>
+    <td align = "left">- [no] Are there fewer lines of code?</td>
   </tr>
 </table>
 
 <b>3. Maintainability </b>  \
 If you had to add a new feature (like finding both max and min), which algorithm would be easier to update? Why?
-________________________
+
+If I had to add a feature that finds both max and min, algorithm 1 would be easier simply because it has a solid base with its simple code.
 
 
 **Checklist to guide your answer:**
@@ -137,24 +141,25 @@ ________________________
   </tr>
 
   <tr>
-    <td align = "left">- [ ] Is the structure straightforward?</td>
-    <td align = "left">- [ ] Is the structure straightforward?</td>
+    <td align = "left">- [yes] Is the structure straightforward?</td>
+    <td align = "left">- [no] Is the structure straightforward?</td>
   </tr>
 
   <tr>
-    <td align = "left">- [ ] Would adding new steps break the code easily?</td>
-    <td align = "left">- [ ] Would adding new steps break the code easily?</td>
+    <td align = "left">- [no] Would adding new steps break the code easily?</td>
+    <td align = "left">- [yes] Would adding new steps break the code easily?</td>
   </tr>
 
   <tr>
-    <td align = "left">- [ ] Is there less chance of errors when updating?</td>
-    <td align = "left">- [ ] Is there less chance of errors when updating?</td>
+    <td align = "left">- [yes] Is there less chance of errors when updating?</td>
+    <td align = "left">- [no] Is there less chance of errors when updating?</td>
   </tr>
 </table>
 
 <b>4. Testability </b>  \
-Which algorithm is easier to tezt with different inputs? Why?
-______________________
+Which algorithm is easier to test with different inputs? Why?
+
+Algorithm 1 because it doesn't have to go through each element every time it loops so it finishes relatively earlier.
 
 
 **Checklist to guide your answer:**
@@ -165,24 +170,26 @@ ______________________
   </tr>
 
   <tr>
-    <td align = "left">- [ ] Can you test with small lists easily?</td>
-    <td align = "left">- [ ] Can you test with small lists easily?</td>
+    <td align = "left">- [yes] Can you test with small lists easily?</td>
+    <td align = "left">- [yes] Can you test with small lists easily?</td>
   </tr>
 
   <tr>
-    <td align = "left">- [ ] Does the algorithm have fewer conditions to check?</td>
-    <td align = "left">- [ ] Does the algorithm have fewer conditions to check?</td>
+    <td align = "left">- [yes] Does the algorithm have fewer conditions to check?</td>
+    <td align = "left">- [no] Does the algorithm have fewer conditions to check?</td>
   </tr>
 
   <tr>
-    <td align = "left">- [ ] Is the output predictable and clear?</td>
-    <td align = "left">- [ ] Is the output predictable and clear?</td>
+    <td align = "left">- [yes] Is the output predictable and clear?</td>
+    <td align = "left">- [no] Is the output predictable and clear?</td>
   </tr>
 </table>
 
 <b>5. Security </b>  \
 Imagine the input list comes from a user. What should the algorithm check to avoid errors or misuse?
-_____________________________
+
+The algorithm should work through empty lists and invalid inputs
+such as special characters, strings, and booleans.
 
 
 **Checklist to guide your answer:**
@@ -193,22 +200,24 @@ _____________________________
   </tr>
 
   <tr>
-    <td align = "left">- [ ] Does the algorithm check if the list is empty?</td>
-    <td align = "left">- [ ] Does the algorithm check if the list is empty?</td>
+    <td align = "left">- [no] Does the algorithm check if the list is empty?</td>
+    <td align = "left">- [no] Does the algorithm check if the list is empty?</td>
   </tr>
 
   <tr>
-    <td align = "left">- [ ] Does it handle invalid inputs (like letters instead of numbers?)</td>
-    <td align = "left">- [ ] Does it handle invalid inputs (like letters instead of numbers?)</td>
+    <td align = "left">- [no] Does it handle invalid inputs (like letters instead of numbers?)</td>
+    <td align = "left">- [no] Does it handle invalid inputs (like letters instead of numbers?)</td>
   </tr>
 
   <tr>
-    <td align = "left">- [ ] Does it avoid crashing when inputs are unusual?</td>
-    <td align = "left">- [ ] Does it avoid crashing when inputs are unusual?</td>
+    <td align = "left">- [no] Does it avoid crashing when inputs are unusual?</td>
+    <td align = "left">- [no] Does it avoid crashing when inputs are unusual?</td>
   </tr>
 </table>
 
 <b>6. Final Answer </b>  \
 Based on your answers from 1 to 5, which one is the better algorithm that you will use to solve the problem of finding the highest number? Why? Summarize your answer.
-______________________
+
+Based on my answers, algorithm 1 would be the better pick because it is more efficient and straight-forward. 
+Although it also has limitations with its code, it is easier to fix than algorithm 2.
 
