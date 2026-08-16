@@ -70,28 +70,30 @@ EndAlgorithm
 
 <b>1. Efficiency </b>  \
 Which algorithm is faster when the list of numbers is very large? Why?
-__________________________________
+Algorithm 1 is faster especially when the list of numbers is very large because its structure does not have a 
+nested loop (unlike Algorithm 2). It also would finish earlier than Algorithm 2 because it does not have to loop
+through every element to find the max. 
 
 
 **Checklist to guide your answer:**
 <table width = "100%">
 <tr>
   <td align = "left"><b>PseudoCode 1</b></td>
-  <td align = "right"><b>PseudoCode 2</b></td>
+  <td align = "left"><b>PseudoCode 2</b></td>
 </tr>
 <tr>
-  <td align = "left">- [ ] Does the algorithm use one loop or two nested loops?</td>
-  <td align = "right">- [ ] Does the algorithm use one loop or two nested loops?</td>
+  <td align = "left">- [X] Does the algorithm use one loop or two nested loops?</td>
+  <td align = "left">- [X] Does the algorithm use one loop or two nested loops?</td>
 </tr>
   
 <tr>
   <td align = "left">- [ ] Does the algorithm repeat work unnecessarily?</td>
-  <td align = "right">- [ ] Does the algorithm repeat work unnecessarily?</td>
+  <td align = "left">- [X] Does the algorithm repeat work unnecessarily?</td>
 </tr>
 
 <tr>
+  <td align = "left">- [X] Which algorithm finishes in fewer steps?</td>
   <td align = "left">- [ ] Which algorithm finishes in fewer steps?</td>
-  <td align = "right">- [ ] Which algorithm finishes in fewer steps?</td>
 </tr>
 </table>
 
@@ -104,21 +106,21 @@ ___________________________________
 <table width = "100%">
   <tr>
     <td align = "left"><b>PseudoCode 1</b></td>
-    <td align = "right"><b>Pseudocode 2</b></td>
+    <td align = "left"><b>Pseudocode 2</b></td>
   </tr>
   <tr>
     <td align = "left">- [ ] Are variable names meaningful (e.g., max vs. bigger?</td>
-    <td align = "right">- [ ] Are variable names meaningful (e.g., max vs. bigger?</td>
+    <td align = "left">- [ ] Are variable names meaningful (e.g., max vs. bigger?</td>
   </tr>
 
   <tr>
     <td align = "left">- [ ] Is the logic simple or complicated?</td>
-    <td align = "right">- [ ] Is the logic simple or complicated?</td>
+    <td align = "left">- [ ] Is the logic simple or complicated?</td>
   </tr>
 
   <tr>
     <td align = "left">- [ ] Are there fewer lines of code?</td>
-    <td align = "right">- [ ] Are there fewer lines of code?</td>
+    <td align = "left">- [ ] Are there fewer lines of code?</td>
   </tr>
 </table>
 
@@ -131,22 +133,22 @@ ________________________
 <table width = "100%">
   <tr>
     <td align = "left"><b>PseudoCode 1</b></td>
-    <td align = "right"><b>PseudoCode 2</b></td>
+    <td align = "left"><b>PseudoCode 2</b></td>
   </tr>
 
   <tr>
     <td align = "left">- [ ] Is the structure straightforward?</td>
-    <td align = "right">- [ ] Is the structure straightforward?</td>
+    <td align = "left">- [ ] Is the structure straightforward?</td>
   </tr>
 
   <tr>
     <td align = "left">- [ ] Would adding new steps break the code easily?</td>
-    <td align = "right">- [ ] Would adding new steps break the code easily?</td>
+    <td align = "left">- [ ] Would adding new steps break the code easily?</td>
   </tr>
 
   <tr>
     <td align = "left">- [ ] Is there less chance of errors when updating?</td>
-    <td align = "right">- [ ] Is there less chance of errors when updating?</td>
+    <td align = "left">- [ ] Is there less chance of errors when updating?</td>
   </tr>
 </table>
 
@@ -159,22 +161,22 @@ ______________________
 <table width = "100%">
   <tr>
     <td align = "left"><b>PseudoCode 1</b></td>
-    <td align = "right"><b>PseudoCode 2</b></td>
+    <td align = "left"><b>PseudoCode 2</b></td>
   </tr>
 
   <tr>
     <td align = "left">- [ ] Can you test with small lists easily?</td>
-    <td align = "right">- [ ] Can you test with small lists easily?</td>
+    <td align = "left">- [ ] Can you test with small lists easily?</td>
   </tr>
 
   <tr>
     <td align = "left">- [ ] Does the algorithm have fewer conditions to check?</td>
-    <td align = "right">- [ ] Does the algorithm have fewer conditions to check?</td>
+    <td align = "left">- [ ] Does the algorithm have fewer conditions to check?</td>
   </tr>
 
   <tr>
     <td align = "left">- [ ] Is the output predictable and clear?</td>
-    <td align = "right">- [ ] Is the output predictable and clear?</td>
+    <td align = "left">- [ ] Is the output predictable and clear?</td>
   </tr>
 </table>
 
@@ -187,22 +189,22 @@ _____________________________
 <table width = "100%">
   <tr>
     <td align = "left"><b>PseudoCode 1</b></td>
-    <td align = "right"><b>PseudoCode 2</b></td>
+    <td align = "left"><b>PseudoCode 2</b></td>
   </tr>
 
   <tr>
     <td align = "left">- [ ] Does the algorithm check if the list is empty?</td>
-    <td align = "right">- [ ] Does the algorithm check if the list is empty?</td>
+    <td align = "left">- [ ] Does the algorithm check if the list is empty?</td>
   </tr>
 
   <tr>
     <td align = "left">- [ ] Does it handle invalid inputs (like letters instead of numbers?)</td>
-    <td align = "right">- [ ] Does it handle invalid inputs (like letters instead of numbers?)</td>
+    <td align = "left">- [ ] Does it handle invalid inputs (like letters instead of numbers?)</td>
   </tr>
 
   <tr>
     <td align = "left">- [ ] Does it avoid crashing when inputs are unusual?</td>
-    <td align = "right">- [ ] Does it avoid crashing when inputs are unusual?</td>
+    <td align = "left">- [ ] Does it avoid crashing when inputs are unusual?</td>
   </tr>
 </table>
 
