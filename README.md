@@ -1,6 +1,5 @@
 <img width="1100" height="213" alt="image" src="https://github.com/user-attachments/assets/519a6593-418c-4421-8dcc-73189dde3955" />
 
-
 # CS3-Repository
 Code Repository for **CS3** Activities
 ## Welcome
