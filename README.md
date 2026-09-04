@@ -1,4 +1,5 @@
-<img width="736" height="426" alt="5a304df33d89454da9c64f01643004a5" src="https://github.com/user-attachments/assets/bde98016-1be8-48de-a984-ed093b87e6b6" />
+<img width="1100" height="213" alt="image" src="https://github.com/user-attachments/assets/519a6593-418c-4421-8dcc-73189dde3955" />
+
 
 # CS3-Repository
 Code Repository for **CS3** Activities
