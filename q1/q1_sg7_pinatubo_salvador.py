@@ -11,7 +11,6 @@ class Beaker(Glassware):
 
 class Tray:
     def __init__(self, beaker_material):
-        # Composition: The Tray explicitly creates and owns 5 Beaker instances
         self.beakers = [Beaker("Beaker", beaker_material) for _ in range(5)]
         print(f"Tray has been created and filled with {len(self.beakers)} beakers.")
         
