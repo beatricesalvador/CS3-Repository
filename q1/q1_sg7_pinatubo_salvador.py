@@ -1,36 +1,22 @@
 class Glassware:
-    def __init__(self, type):
-        self.type = type
-        print(self.type, "created.")
-    
+    def __init__(self,glassware_type):
+        self.glassware_type = glassware_type
+        print(f"You created a {self.glassware_type}.")
+
 class Beaker(Glassware):
-    def __init__(self, type, material):
+    def __init__(self,material,glassware_type):
+        super().__init__(glassware_type)
         self.material = material
-        super().__init__(type)
-        print(f'The {self.type} is primarily made of {self.material}.')
+        print(f"The {self.glassware_type} is primarily made of {self.material}.")
+
 class Tray:
-    def __init__(self, glassware):
-        self. glassware = glassware
-        self.glassware = []
-        print("Tray has been created.")
-    def add_glassware(self, glassware):
-        if len(self.glassware) <= 5:
-            glasswares = int(input("How much glasswares would you like to add to your tray? "))
-            self.glassware.append(glasswares)
-            if len(self.glassware) <= 5:
-                print(f'The tray is holding {glasswares} glassware(s).')
-            elif len(self.glassare) > 5:
-                print(f'{glasswares} glasswares is too much for the Tray.')
-                def __del__(self, glassware):
-                    print(f'{self.glassware} is now lost in the system.')
-            else:
-                print("Invalid Input. Type an integer.")
-
+    def __init__(self, beaker_material):
+        # Composition: The Tray explicitly creates and owns 5 Beaker instances
+        self.beakers = [Beaker("Beaker", beaker_material) for _ in range(5)]
+        print(f"Tray has been created and filled with {len(self.beakers)} beakers.")
         
-            
-philips = Beaker("Philips Beaker", "borosilicate glass")
-testTube = Glassware("Test Tube")
-testTube = Tray("Test Tube")
-testTube.add_glassware("Test Tube")
+    def del_tray(self):
+        print("The tray has been deleted. All beakers are now lost to the system.")
 
-
+my_tray = Tray("borosilicate glass")
+del my_tray
