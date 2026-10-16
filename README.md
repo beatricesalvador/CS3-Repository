@@ -180,3 +180,18 @@ student1.set_age(16)
 print("Student age: ", student1.get_age())
 print(student1.greet())
 ```
+```
+#INHERITANCE
+class Father:
+    eyes = "blue eyes"
+
+class Mother:
+    hair = "black hair"
+
+class You(Father, Mother):
+    def describeYourself(self):
+        print("I have", self.eyes, "and", self.hair)
+
+you = You()
+you.describeYourself()
+```
