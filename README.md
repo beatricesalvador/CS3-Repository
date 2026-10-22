@@ -18,6 +18,7 @@ Hello! I am Beatrice D. Salvador from 9-Pinatubo.
 ### (FA 7) SG 7: Code the Lab Inventory Hierarchy - [Click Here to Read](https://github.com/beatricesalvador/CS3-Repository/blob/main/q1/q1_sg7_pinatubo_salvador.py)
 
 ## Sample Codes: 
+### Quarter 1
 ```
 class Car:
     def __init__(self,brand,model,battery=35):
@@ -151,6 +152,7 @@ fishball.eat()
 del fishball
 print(vinegar)
 ```
+### Quarter 2
 ```
 #ENCAPSULATION    
 class Student:
