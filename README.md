@@ -5,6 +5,7 @@ Code Repository for **CS3** Activities
 ## Welcome
 Hello! I am Beatrice D. Salvador from 9-Pinatubo.
 
+## Quarter 1
 ### (FA 1) SG 2: Activity 1 - [Click Here to Read](https://github.com/beatricesalvador/CS3-Repository/blob/main/q1/q1_sg2_a1.md)
 
 ### SG 2: Activity 2 - [Click Here to Read](https://github.com/beatricesalvador/CS3-Repository/blob/main/q1/q1_sg2_a2.md)
@@ -16,6 +17,10 @@ Hello! I am Beatrice D. Salvador from 9-Pinatubo.
 ### (FA 6) SG 6: Challenge 1 - [Click Here to Read](https://github.com/beatricesalvador/CS3-Repository/blob/main/q1/q1_sg6_pinatubo_salvador.py)
 
 ### (FA 7) SG 7: Code the Lab Inventory Hierarchy - [Click Here to Read](https://github.com/beatricesalvador/CS3-Repository/blob/main/q1/q1_sg7_pinatubo_salvador.py)
+
+## Quarter 2
+### (FA 1) SG 8 & 9: Encapsulation and Inheritance - [Click Here to Read](https://github.com/beatricesalvador/CS3-Repository/blob/main/q2/fa1_pinatubo_salvador.py)
+### (FA 2) SG 10: Method Overriding - [Click Here to Read](https://github.com/beatricesalvador/CS3-Repository/blob/main/q2/fa2_pinatubo_salvador.py)
 
 ## Sample Codes: 
 ### Quarter 1
